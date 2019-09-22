@@ -36,3 +36,20 @@ a ready to use starter kit with authentication based on token.
 Email : **hello@halber.io**
 
 Website : **https://halber.io**
+
+#
+
+**Sign in page:**
+![alt text](https://raw.githubusercontent.com/halberio/halber-react-kit/master/img/1.png)
+
+#
+
+**Sign up page:**
+![alt text](https://raw.githubusercontent.com/halberio/halber-react-kit/master/img/2.png)
+
+#
+
+**Articles page:**
+![alt text](https://raw.githubusercontent.com/halberio/halber-react-kit/master/img/3.png)
+
+#

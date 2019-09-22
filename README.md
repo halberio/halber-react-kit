@@ -2,6 +2,9 @@
 
 a ready to use starter kit with authentication based on token.
 
+**NB:**
+Do not forget to rename the .env.example file to .env and put there your REST API url
+
 ## **Packages installed** and ready to use:
 
 - Ant design

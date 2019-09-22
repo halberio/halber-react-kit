@@ -1,5 +1,4 @@
 import axios from "axios";
-import { API } from "./api";
 import store from "../stores/store-dev";
 import { logout } from "../actions/auth-actions/actions";
 
@@ -8,7 +7,7 @@ import { history } from "../index";
 const token = localStorage.getItem("halber_token");
 
 const axiosInstance = axios.create({
-  baseURL: API,
+  baseURL: process.env.REACT_APP_API_URL,
   headers: {
     Accept: "application/json",
     "Content-Type": "application/json",

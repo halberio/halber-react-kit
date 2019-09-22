@@ -1,0 +1,42 @@
+@import "../../stylesheets/variables";
+@import "../../stylesheets/mixins";
+
+.navbar {
+  @include flexbox();
+  @include align-items(center);
+  .first-element {
+    margin-left: 40px;
+  }
+  .navbar-brand,
+  .navbar-avatar {
+    @include flexbox();
+    @include align-items(center);
+    position: relative;
+    &.ant-menu-item-selected,
+    &.ant-menu-item-active {
+      color: transparent !important;
+      border-bottom: 0 !important;
+    }
+  }
+  .navbar-brand {
+    .brand-link {
+      position: relative;
+      svg {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        height: 30px;
+        width: 30px;
+      }
+    }
+  }
+  .navbar-right {
+    margin-left: auto;
+  }
+  .avatar {
+    i {
+      margin: 0;
+    }
+  }
+}

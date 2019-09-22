@@ -1,0 +1,15 @@
+@import "../../stylesheets/mixins";
+@import "../../stylesheets/variables";
+
+.signin-page {
+  .title {
+    display: block;
+    margin: 100px 0;
+    text-align: center;
+  }
+  .content {
+    @include flexbox();
+    @include justify-content(center);
+    @include align-items(center);
+  }
+}

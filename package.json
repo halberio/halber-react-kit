@@ -1,6 +1,6 @@
 {
   "name": "halber-react-kit",
-  "version": "0.1",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "antd": "^3.23.4",

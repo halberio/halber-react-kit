@@ -1,0 +1,12 @@
+@import "../../stylesheets/variables";
+@import "../../stylesheets/mixins";
+
+.posts-page {
+  @include flexbox();
+  @include flex-wrap(wrap);
+  @include justify-content(center);
+
+  .ant-card {
+    margin: 10px;
+  }
+}
